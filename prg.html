@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Travel Explorer</h1>
+            <p>Find your dream destination and weather info!</p>
+        </header>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" id="location" placeholder="Enter a location...">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <!-- Travel Image -->
+        <div id="imageContainer" class="image-container">
+            <img id="travelImage" src="" alt="Travel Destination Image" />
+        </div>
+
+        <!-- Weather Information -->
+        <div id="weatherContainer" class="weather-container">
+            <h3 id="cityName">City Name</h3>
+            <p id="weatherDescription">Weather Description</p>
+            <p id="temperature">Temperature: </p>
+            <p id="humidity">Humidity: </p>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
